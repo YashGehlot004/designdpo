@@ -7,8 +7,8 @@ import React from 'react';
 import { AiOutlineHeart } from "react-icons/ai";
 import { AiOutlineSearch } from "react-icons/ai";
 import { AiOutlineInfoCircle } from "react-icons/ai";
-
 import { AiOutlineAlignLeft } from "react-icons/ai";
+import { CgShoppingBag } from "react-icons/cg";
 import { LuRockingChair } from "react-icons/lu";
 import { BiCategoryAlt } from "react-icons/bi";
 import { MdHomeMini } from "react-icons/md";
@@ -160,14 +160,24 @@ export function Haeder() {
                 We will send you an One Time Password on this mobile number
             </p>
             <form className='form'>
-                <label className='fs-5  fw-semibold px-2'>
+                <label className='fs-5  fw-semibold px-1'>
                     Phone number
                 </label><br />
-                <input placeholder='Enter Phone Number' type="text" className='w-100 rounded' />
+                <input placeholder='Enter Phone Number' type="text" className='w-100 py-2 px-3 rounded' />
             </form>
-            <p className='textagree'>
-               I agree to all Terms & Conditions and Privacy Policy of DsignDpo.
-            </p>
+            <div className='textagree px-3 my-2 '>
+               <input type="checkbox" name="" id="" /> &nbsp;
+              <span className='text-start'>  I agree to all <span className='text-danger'> Terms & Conditions</span> and <span className='text-danger'> Privacy Policy </span>of DsignDpo.</span>
+            </div>
+            <div className='px-5 py-2 popbtn1'>
+                <button className='w-100 py-3 rounded fw-bold '> Continue   </button>
+            </div>
+            <div className='text-center'>
+                <span className='bg-light rounded-3'> or </span>
+            </div>
+            <div className='px-5 py-2 popbtn2'>
+                <button className='w-100 py-3 '> Continue with Google   </button>
+            </div>
         </div>
         </>
     )

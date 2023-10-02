@@ -1,16 +1,17 @@
 import { Col, Row, Tab, Tabs } from "react-bootstrap";
 import imgtab from '../images/main1.jpg';
-import imgtad2 from '../images/main1.jpg';
-import imgtad3 from '../images/main1.jpg';
-import imgtad10 from '../images/main1.jpg';
-import imgtad4 from '../images/main1.jpg';
-import imgtad5 from '../images/main1.jpg';
-import imgtad6 from '../images/main1.jpg';
-import imgtad7 from '../images/main1.jpg';
-import imgtad8 from '../images/main1.jpg';
-import imgtad9 from '../images/main1.jpg';
-import imgtad11 from '../images/main1.jpg';
-import imgtad12 from '../images/main1.jpg';
+import imgtad2 from '../images/main2.jpg';
+import imgtad3 from '../images/main3.jpg';
+import imgtad10 from '../images/main4.jpg';
+import imgtad4 from '../images/main5.jpg';
+import imgtad5 from '../images/main6 (2).jpg';
+import imgtad6 from '../images/main7.jpg';
+import imgtad7 from '../images/main9.jpg';
+import imgtad8 from '../images/main8.jpg';
+import imgtad9 from '../images/main10.jpg';
+import imgtad11 from '../images/main11.jpg';
+import imgtad12 from '../images/main12.jpg';
+import tabimg1 from '../images/tab1.jpg';
 
 
 
@@ -30,7 +31,7 @@ export function Tabbing() {
                             <img src={imgtab} className="img-fluid tabimg py-2" alt="" />
                         </Col>
                         <Col className="col-lg-3 p-2 col-12 col-md-6 ">
-                            <img src={imgtad2} className="img-fluid tabimg py-2" alt="" />
+                            <img src={tabimg1} className="img-fluid tabimg py-2" alt="" />
                         </Col>
                         <Col className="col-lg-3 p-2 col-12 col-md-6 ">
                             <img src={imgtad3} className="img-fluid tabimg py-2" alt="" />
@@ -84,7 +85,7 @@ export function Tabbing() {
                     </Row>
                 </Tab>
                 <Tab eventKey="contact" title="Wardrobe Designs">
-                    <Row className="justify-content-center m-0">
+                    <Row className="justify-content-center m-0 g-2">
                         <Col className="col-lg-3 p-2 col-12 col-md-6 ">
                             <img src={imgtad8} className="img-fluid tabimg py-2" alt="" />
                         </Col>

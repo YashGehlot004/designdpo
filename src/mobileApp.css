@@ -41,7 +41,7 @@
         text-align: center;
     }
     .nav-tabs li  button {
-        width:300px !important; 
+        font-size: 18px !important;
     }
     .section3h{
         height: auto !important;

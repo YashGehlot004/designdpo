@@ -16,7 +16,7 @@ import sectionimg5 from './images/benefits_subimage-bad.jpg';
 import sectionimg6 from './images/benefits_subimage_3.jpg';
 import sectionimg7 from './images/benefits_subimage_icon_3.svg';
 import sectionimg8 from './images/benefits_subimage_4.png';
-import sectionimg9 from './images/benefits_subimage_icon_41681880478.svg';
+import sectionimg9 from './benefits_subimage_icon_41681880478.svg';
 import sectionimg10 from './images/benefits_subimage_5.jpg';
 import sectionimg11 from './images/benefits_subimage_icon.svg';
 import section3img from './images/benefits_title_image.jpg';

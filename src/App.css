@@ -183,7 +183,7 @@ h1{
   background-color: #ebf8fc;
 }
 .nav-tabs li  button {
-  width: 280px !important;
+
    color: #202223;
    box-shadow: 0px 0px 10px 2px #ccc;
   background: white !important;
@@ -256,6 +256,8 @@ font-size: 18px !important;
   left: 0px !important;
   z-index: 9999;
   display: block !important;
+  font-family: Inter,sans-serif !important;
+
 }
 .pop{
   display: none !important;
@@ -270,6 +272,22 @@ font-size: 18px !important;
   transform: translate(-50%, -50%) !important;
   border-radius: 5%;
   z-index: 9999;
+}
+.popbtn1 button{
+  background-color: #315399!important;
+  color: white !important;
+  font-family: Roboto, sans-serif !important;
+  border: none !important;
+
+}
+.popbtn2 button{
+  font-family: Roboto, sans-serif !important;
+  border: none !important;
+  color: rgba(0, 0, 0, 0.54) !important ;
+  background-color: white !important;
+  border: 1px solid #dddfe3!important;
+  box-shadow: 0 1px 2px rgba(0,0,0,.04),0 3px 5px rgba(0,0,0,.06)!important;
+  border-radius: 6px!important;
 }
 .form{
   width: 80%;
