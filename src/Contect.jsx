@@ -11,7 +11,7 @@ export function Contect() {
         <>
             <Haeder />
             <Container>
-                <Row className="m-0 p-0 p-lg-5">
+                <Row className="m-0 p-0 p-lg-5 mt-5">
                     <Col className="col-lg-6 pt-3 col-12">
                         <h3 className="fw-bold">
                             Contact Us
