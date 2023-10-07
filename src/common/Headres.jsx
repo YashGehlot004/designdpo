@@ -28,7 +28,7 @@ export function Haeder() {
 
     return (
         <>
-        <div className='container-fluid p-0 shadow'>
+        <div className='container-fluid p-0 shadow position-fixed headerBackground  top-0 start-0 z-3'>
             <Container>
                 <Navbar>
                     <Container>
